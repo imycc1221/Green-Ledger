@@ -1,0 +1,78 @@
+{
+  "electricity": {
+    "peninsular": {
+      "factor": 0.585,
+      "unit": "kWh",
+      "scope": 2,
+      "source": "Suruhanjaya Tenaga 2022"
+    },
+    "sabah": {
+      "factor": 0.840,
+      "unit": "kWh",
+      "scope": 2,
+      "source": "Suruhanjaya Tenaga 2022"
+    },
+    "sarawak": {
+      "factor": 0.474,
+      "unit": "kWh",
+      "scope": 2,
+      "source": "Suruhanjaya Tenaga 2022"
+    },
+    "default": {
+      "factor": 0.585,
+      "unit": "kWh",
+      "scope": 2,
+      "source": "Suruhanjaya Tenaga 2022 (Peninsular default)"
+    }
+  },
+  "water": {
+    "default": {
+      "factor": 0.344,
+      "unit": "m3",
+      "scope": 2,
+      "source": "DEFRA 2023"
+    }
+  },
+  "fuel": {
+    "diesel": {
+      "factor": 2.68,
+      "unit": "litre",
+      "scope": 1,
+      "source": "IPCC AR6"
+    },
+    "petrol": {
+      "factor": 2.31,
+      "unit": "litre",
+      "scope": 1,
+      "source": "IPCC AR6"
+    },
+    "default": {
+      "factor": 2.31,
+      "unit": "litre",
+      "scope": 1,
+      "source": "IPCC AR6 (petrol default)"
+    }
+  },
+  "gas": {
+    "lpg": {
+      "factor": 1.51,
+      "unit": "kg",
+      "scope": 1,
+      "source": "IPCC AR6"
+    },
+    "default": {
+      "factor": 1.51,
+      "unit": "kg",
+      "scope": 1,
+      "source": "IPCC AR6"
+    }
+  },
+  "waste": {
+    "default": {
+      "factor": 0.58,
+      "unit": "kg",
+      "scope": 3,
+      "source": "IPCC"
+    }
+  }
+}
